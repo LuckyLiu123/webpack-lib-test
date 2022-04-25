@@ -1,0 +1,25 @@
+{
+  "name": "webpack-lib-test",
+  "version": "1.0.0",
+  "description": "webpack打包公共库",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LuckyLiu123/webpack-lib-test.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LuckyLiu123/webpack-lib-test/issues"
+  },
+  "homepage": "https://github.com/LuckyLiu123/webpack-lib-test#readme",
+  "devDependencies": {
+    "terser-webpack-plugin": "^4.2.0",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.12"
+  }
+}
