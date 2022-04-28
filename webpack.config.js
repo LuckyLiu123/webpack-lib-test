@@ -11,7 +11,8 @@ module.exports = {
         path: path.resolve(__dirname, './umd'),
         filename: '[name].js',
         library: 'kkb',   //指定库的名称
-        libraryTarget: 'umd'  //指定打包的规范  var this window global umd
+        libraryTarget: 'umd',  //指定打包的规范  var this window global umd
+        libraryExport: "default"
     },
     //打包压缩文件和未压缩文件的时候mode不起作用，需要使用terser-webpack-plugin
     mode: "none",  //development production
